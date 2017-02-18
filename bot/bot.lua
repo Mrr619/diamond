@@ -612,7 +612,7 @@ else
 function msg_valid(msg)
   if msg.date_ < os.time() - 60 then
     print('\27[36mOld msg\27[39m')
-    return false
+    return true
   end
   return true
 end
