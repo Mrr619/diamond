@@ -44,7 +44,6 @@ end
  
 return {
   patterns = {
-    "(ک*س)$",
     "کیر",
 	"کص",
 	"کــــــــــیر",
@@ -56,9 +55,6 @@ return {
 	"کــــــــــیرر",
     "kir",
 	"kos",
-	"گوساله",
-	"gosale",
-	"gusale",
 	"جاکش",
 	"قرمساق",
 	"دیوس",
@@ -100,6 +96,4 @@ return {
   pre_process = pre_process
 }
 
--- http://permag.ir
--- @permag_ir
--- @permag_bots
+
