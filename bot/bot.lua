@@ -880,3 +880,4 @@ elseif msg.content_.ID == "MessageGame" then
     tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat_id_=0, limit_=20}, dl_cb, nil)    
 
   end
+end
