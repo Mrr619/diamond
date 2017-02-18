@@ -658,7 +658,7 @@ function OBJDEF:decode(text, etc)
    --
    -- Ensure that it's not UTF-32 or UTF-16.
    -- Those are perfectly valid encodings for JSON (as per RFC 4627 section 3),
-   -- but this package can't handle them.
+   -- but this package can't handle them
    --
    if text:sub(1,1):byte() == 0 or (text:len() >= 2 and text:sub(2,2):byte() == 0) then
       self:onDecodeError("JSON package groks only UTF-8, sorry", text, nil, etc)
