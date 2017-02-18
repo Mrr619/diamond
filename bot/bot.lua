@@ -90,23 +90,11 @@ function create_config( )
 	"lock-fosh"
 	
  },
-    sudo_users = {123456789},
+    sudo_users = {219201071},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
-
-🔰Our channel :
-》@permag_bots《
-
-🔰Our channel2 :
-》@permag_ir《
-
-🔰Our channel3 :
-》@permag《
-
-🔰Our website :
-》http://permag.ir
+    info_text = [[
 ]],
   }
   serialize_to_file(config, './data/config.lua')
@@ -892,9 +880,3 @@ elseif msg.content_.ID == "MessageGame" then
     tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat_id_=0, limit_=20}, dl_cb, nil)    
 
   end
-
-end
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
